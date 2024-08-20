@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19679E7C2C73653100C9F9BA /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19679E7B2C73653100C9F9BA /* APICaller.swift */; };
 		19C65BD72C70F84E008EF7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C65BD62C70F84E008EF7FA /* AppDelegate.swift */; };
 		19C65BD92C70F84E008EF7FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C65BD82C70F84E008EF7FA /* SceneDelegate.swift */; };
 		19C65BDB2C70F84E008EF7FA /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C65BDA2C70F84E008EF7FA /* MainTabbarViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19679E7B2C73653100C9F9BA /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		19C65BD32C70F84E008EF7FA /* NetflixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C65BD62C70F84E008EF7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19C65BD82C70F84E008EF7FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		19C65BF72C71161F008EF7FA /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				19679E7B2C73653100C9F9BA /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				19C65BF02C7108BC008EF7FA /* SearchViewController.swift in Sources */,
 				19C65BDB2C70F84E008EF7FA /* MainTabbarViewController.swift in Sources */,
 				19C65BF92C711884008EF7FA /* CollectionViewTableViewCell.swift in Sources */,
+				19679E7C2C73653100C9F9BA /* APICaller.swift in Sources */,
 				19C65BFB2C712397008EF7FA /* HeroHeaderUIView.swift in Sources */,
 				19C65BF22C7108DF008EF7FA /* DownloadsViewController.swift in Sources */,
 				19C65BD72C70F84E008EF7FA /* AppDelegate.swift in Sources */,
