@@ -15,4 +15,10 @@ struct Constants {
 class APICaller {
     static let shared = APICaller()
     
+    func getTrendingMovies( compl){
+        
+    }
+    
 }
+
+
