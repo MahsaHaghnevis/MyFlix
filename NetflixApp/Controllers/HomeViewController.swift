@@ -29,12 +29,21 @@ class HomeViewController: UIViewController {
         homeFeedTable.tableHeaderView = headerView
         
         configureNavBar()
+
+        getTrendingMovies()
        
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         homeFeedTable.frame = view.bounds
+    }
+    
+    private func getTrendingMovies(){
+        APICaller.shared.getTrendingMovies{
+            _ in
+            
+        }
     }
     
     private func configureNavBar(){

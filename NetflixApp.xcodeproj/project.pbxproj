@@ -19,6 +19,7 @@
 		19C65BF22C7108DF008EF7FA /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C65BF12C7108DF008EF7FA /* DownloadsViewController.swift */; };
 		19C65BF92C711884008EF7FA /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C65BF82C711884008EF7FA /* CollectionViewTableViewCell.swift */; };
 		19C65BFB2C712397008EF7FA /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C65BFA2C712397008EF7FA /* HeroHeaderUIView.swift */; };
+		19E145DA2C79B3E10064F59E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E145D92C79B3E10064F59E /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		19C65BF12C7108DF008EF7FA /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		19C65BF82C711884008EF7FA /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		19C65BFA2C712397008EF7FA /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		19E145D92C79B3E10064F59E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		19C65BF52C7110C0008EF7FA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				19E145D92C79B3E10064F59E /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				19C65BD72C70F84E008EF7FA /* AppDelegate.swift in Sources */,
 				19C65BD92C70F84E008EF7FA /* SceneDelegate.swift in Sources */,
 				19C65BEE2C71088F008EF7FA /* UpcomingViewController.swift in Sources */,
+				19E145DA2C79B3E10064F59E /* Movie.swift in Sources */,
 				19C65BEC2C71085B008EF7FA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
